@@ -1,0 +1,1 @@
+ SELECT a.userID, b.usersFirstName, b.usersLastName  FROM databaseA.dbo.TableA a inner join database B.dbo.TableB b  ON a.userID=b.userID
